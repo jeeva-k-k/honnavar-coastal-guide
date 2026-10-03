@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bangalore to Honnavar Road Trip Guide: Route, Stops & Homestay with Parking</title>
+  <meta name="description" content="Plan your Bangalore to Honnavar road trip: route via Shimoga & Jog Falls, travel tips, and stay at Lopez Paradise Homestay with gated private parking for cars and SUVs.">
+  <link rel="canonical" href="https://jeeva-k-k.github.io/honnavar-coastal-guide/bangalore-to-honnavar-road-trip-guide.html">
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <style>
+    :root {
+      --primary: #0f766e;
+      --primary-dark: #115e59;
+      --primary-light: #ccfbf1;
+      --accent: #d97706;
+      --text: #1e293b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); }
+    header { background: linear-gradient(135deg, #1e3a8a, var(--primary)); color: white; padding: 2.5rem 1.5rem; text-align: center; }
+    header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; font-weight: 700; }
+    header p { font-size: 1.1rem; opacity: 0.95; max-width: 800px; margin: 0 auto 1.2rem; }
+    nav.portal-nav { background: #0b4f49; padding: 0.75rem 1rem; text-align: center; overflow-x: auto; white-space: nowrap; }
+    nav.portal-nav a { color: #ccfbf1; text-decoration: none; margin: 0 0.65rem; font-size: 0.9rem; font-weight: 500; display: inline-block; }
+    nav.portal-nav a:hover, nav.portal-nav a.active { color: #ffffff; text-decoration: underline; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+    .hero-pill { display: inline-block; background: var(--primary-light); color: var(--primary-dark); font-size: 0.9rem; font-weight: 600; padding: 0.3rem 0.8rem; border-radius: 9999px; margin-bottom: 1rem; }
+    .card { background: var(--card-bg); border-radius: 12px; padding: 1.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 2rem; }
+    .card h2 { color: var(--primary); margin-bottom: 0.75rem; font-size: 1.5rem; }
+    .card h3 { color: var(--text); margin: 1.2rem 0 0.5rem; font-size: 1.2rem; }
+    .timeline { position: relative; margin: 1.5rem 0; padding-left: 2rem; border-left: 3px solid var(--primary); }
+    .timeline-item { margin-bottom: 1.5rem; position: relative; }
+    .timeline-item::before { content: ""; position: absolute; left: -2.45rem; top: 0.25rem; width: 14px; height: 14px; border-radius: 50%; background: var(--primary); border: 3px solid white; box-shadow: 0 0 0 2px var(--primary); }
+    .timeline-item h4 { color: var(--primary-dark); font-size: 1.1rem; margin-bottom: 0.25rem; }
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin: 1.5rem 0; }
+    .feature-box { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; }
+    .feature-box h4 { color: var(--primary-dark); margin-bottom: 0.4rem; font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem; }
+    #map { height: 420px; width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 1.5rem 0; border: 1px solid #e2e8f0; }
+    .btn { display: inline-block; color: white; background: var(--primary); text-decoration: none; padding: 0.65rem 1.25rem; border-radius: 6px; font-size: 0.95rem; font-weight: 600; transition: background 0.2s; }
+    .btn:hover { background: var(--primary-dark); }
+    .btn-red { background: #ea4335; }
+    .btn-red:hover { background: #c5221f; }
+    .faq-item { margin-bottom: 1.25rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 1rem; }
+    .faq-item h4 { color: var(--primary-dark); margin-bottom: 0.3rem; }
+    footer { text-align: center; padding: 2rem; color: #64748b; font-size: 0.9rem; border-top: 1px solid #e2e8f0; background: white; margin-top: 3rem; }
+    footer a { color: var(--primary); text-decoration: none; font-weight: 500; }
+  </style>
+
+  <!-- Schema.org TouristTrip & LodgingBusiness JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TouristTrip",
+        "@id": "https://jeeva-k-k.github.io/honnavar-coastal-guide/bangalore-to-honnavar-road-trip-guide.html#trip",
+        "name": "Bangalore to Honnavar Scenic Road Trip via Jog Falls",
+        "description": "Comprehensive driving itinerary from Bengaluru to Honnavar across NH 48 and NH 69, passing Shivamogga, Sagara, and the Sharavathi Ghats.",
+        "itinerary": [
+          {"@type": "City", "name": "Bengaluru"},
+          {"@type": "City", "name": "Shivamogga"},
+          {"@type": "TouristAttraction", "name": "Jog Falls"},
+          {"@type": "City", "name": "Honnavar"}
+        ]
+      },
+      {
+        "@type": "LodgingBusiness",
+        "@id": "https://lopezparadise.in/#lodging",
+        "name": "Lopez Paradise Homestay Honnavar",
+        "url": "https://lopezparadise.in/",
+        "telephone": "+918792466846",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Pragati Nagar, Kelginuru, Kasarkoda",
+          "addressLocality": "Honnavar",
+          "addressRegion": "Karnataka",
+          "postalCode": "581342",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 14.244209,
+          "longitude": 74.446930
+        },
+        "amenityFeature": [
+          {"@type": "LocationFeatureSpecification", "name": "Gated Private Car Parking (6+ Vehicles)", "value": true}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the driving distance and time from Bangalore to Honnavar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The driving distance is approximately 460 km via NH 48 and NH 69. Total driving time is typically 8.5 to 9.5 hours including breakfast and sightseeing stops."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is there safe car parking at Lopez Paradise Homestay?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, Lopez Paradise features an expansive on-site private compound secured behind private gates with ample space to easily park 6 to 8 cars, SUVs, or Tempo Travelers."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <header>
+    <span class="hero-pill">Karnataka Road Trip Series</span>
+    <h1>Bangalore to Honnavar Road Trip Guide</h1>
+    <p>Everything you need for the classic 460 km journey from Bengaluru through Shivamogga, Jog Falls, and the lush Western Ghats to peaceful Kasarkod.</p>
+  </header>
+
+  <nav class="portal-nav">
+    <a href="index.html">Overview</a>
+    <a href="best-homestay-in-honnavar.html">Best Homestay Guide</a>
+    <a href="family-homestay-honnavar.html">Family Stay & Parking</a>
+    <a href="kasarkod-eco-beach-homestay.html">Kasarkod Eco Beach</a>
+    <a href="couple-friendly-homestay-honnavar.html">Couples Retreat</a>
+    <a href="honnavar-boating-mangrove-guide.html">Boating & Mangroves</a>
+    <a href="kandla-mangrove-boardwalk-stays.html">Mangrove Boardwalk</a>
+    <a href="bangalore-to-honnavar-road-trip-guide.html" class="active">Road Trip Guide</a>
+    <a href="seven-experiences-honnavar.html">7 Experiences</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>The Scenic Driving Itinerary</h2>
+      <p>The road trip from Bangalore to Honnavar transitions from expressways into agricultural plains, dense Western Ghats rainforests, and finally the Arabian Sea coastline.</p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <h4>Stage 1: Bangalore to Tumakuru (NH 48) • ~70 km</h4>
+          <p>Early morning departure (5:30–6:00 AM) to beat city traffic along the Tumkur expressway. Smooth 6-lane tollway with numerous modern fuel and breakfast stops.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>Stage 2: Tumakuru to Shivamogga via Arsikere & Tarikere • ~210 km</h4>
+          <p>Well-maintained 4-lane and 2-lane state highways through coconut groves and rural towns. Excellent spot for a traditional South Indian filter coffee and masala dosa breakfast.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>Stage 3: Shivamogga to Sagara & Jog Falls (NH 69) • ~100 km</h4>
+          <p>Ascend into the lush green Sharavathi valley. Make a 45-minute stop at iconic <strong>Jog Falls</strong> (Raja, Roarer, Rocket, and Rani cascades) located right along the highway.</p>
+        </div>
+        <div class="timeline-item">
+          <h4>Stage 4: Jog Falls to Honnavar / Kasarkod • ~60 km</h4>
+          <p>A breathtaking descent through the Gersoppa Ghats, winding through dense teak and evergreen canopies along the Sharavathi River, arriving at Kasarkod, Honnavar.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Road-Tripper Basecamp: Lopez Paradise with Gated Parking</h2>
+      <p>After a long 9-hour drive, the last thing you want is worrying about tight street parking or vehicle safety. <strong>Lopez Paradise Homestay</strong> in Kasarkod was built with road-trippers in mind:</p>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <h4>🚗 Gated On-Site Compound</h4>
+          <p>Ample dedicated parking for 6 to 8 private vehicles, large SUVs, and Tempo Travelers directly inside private property gates.</p>
+        </div>
+        <div class="feature-box">
+          <h4>❄️ Instant AC Comfort</h4>
+          <p>Cool, whisper-quiet split air-conditioning in all 7 bedrooms with 24/7 hot water showers to wash away highway fatigue.</p>
+        </div>
+        <div class="feature-box">
+          <h4>🌴 Peaceful Quiet Nights</h4>
+          <p>Located in serene Pragati Nagar, away from highway truck horns, ensuring deep restful sleep surrounded by coastal trees.</p>
+        </div>
+        <div class="feature-box">
+          <h4>📍 Proximity to Attractions</h4>
+          <p>Just 3.4 km to Kasarkod Eco Beach and 2.1 km to Sharavathi Boating Jetty, making your day trips effortless.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 1.5rem;">
+        <a href="https://maps.google.com/maps?cid=4877075053733670463" target="_blank" rel="noopener noreferrer" class="btn btn-red">📍 Direct Navigation Link on Google Maps</a>
+        <a href="https://lopezparadise.in/" target="_blank" rel="noopener noreferrer" class="btn" style="margin-left: 0.75rem;">🌐 Official Booking Website</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Interactive Route & Location Map</h2>
+      <div id="map"></div>
+    </div>
+
+    <div class="card">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <h4>Are roads suitable for small hatchbacks and sedans?</h4>
+        <p>Yes. The entire route along NH 48 and NH 69 is fully asphalted and suitable for all vehicle types, including sedans and low-ground-clearance cars.</p>
+      </div>
+      <div class="faq-item">
+        <h4>What time should we leave Bangalore?</h4>
+        <p>Departing by 5:30 AM allows you to pass Tumakuru before rush hour, reach Shivamogga for a leisurely lunch, explore Jog Falls by 2:30 PM, and arrive at Lopez Paradise in Kasarkod by 5:00 PM in time for sunset at Kasarkod Eco Beach.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Lopez Paradise Homestay Portal • Pragati Nagar, Kelginuru, Kasarkoda, Honnavar, Karnataka 581342</p>
+    <p style="margin-top: 0.5rem;"><a href="https://lopezparadise.in/">lopezparadise.in</a> • Call/WhatsApp: <a href="tel:+918792466846">+91 87924 66846</a></p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var map = L.map('map').setView([14.244209, 74.446930], 13);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+      }).addTo(map);
+
+      var lpIcon = L.icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      });
+
+      L.marker([14.244209, 74.446930], {icon: lpIcon}).addTo(map)
+        .bindPopup('<b>Lopez Paradise Homestay</b><br>Gated Private Parking & Peaceful AC Rooms')
+        .openPopup();
+
+      L.marker([14.2485, 74.4365]).addTo(map)
+        .bindPopup('<b>Kasarkod Blue Flag Beach</b><br>3.4 km from Lopez Paradise');
+
+      L.marker([14.2250, 74.7800]).addTo(map)
+        .bindPopup('<b>Jog Falls Viewpoint</b><br>En Route from Bangalore (60 km east)');
+    });
+  </script>
+</body>
+</html>

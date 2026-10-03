@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Places to Stay Near Kandla Mangrove Boardwalk Honnavar | Visitor & Stay Guide</title>
+  <meta name="description" content="Complete visitor guide for Kandla Mangrove Boardwalk Honnavar: timings, boat rides, and the best place to stay nearby at Lopez Paradise Homestay (2.1 km from boat jetty, 7 AC rooms, gated parking).">
+  <link rel="canonical" href="https://jeeva-k-k.github.io/honnavar-coastal-guide/kandla-mangrove-boardwalk-stays.html">
+
+  <!-- Leaflet CSS & JS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <style>
+    :root {
+      --primary: #0f766e;
+      --primary-dark: #115e59;
+      --primary-light: #ccfbf1;
+      --accent: #d97706;
+      --text: #1e293b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); }
+    header { background: linear-gradient(135deg, #065f46, var(--primary)); color: white; padding: 2.5rem 1.5rem; text-align: center; }
+    header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; font-weight: 700; }
+    header p { font-size: 1.1rem; opacity: 0.95; max-width: 800px; margin: 0 auto 1.2rem; }
+    nav.portal-nav { background: #0b4f49; padding: 0.75rem 1rem; text-align: center; overflow-x: auto; white-space: nowrap; }
+    nav.portal-nav a { color: #ccfbf1; text-decoration: none; margin: 0 0.65rem; font-size: 0.9rem; font-weight: 500; display: inline-block; }
+    nav.portal-nav a:hover, nav.portal-nav a.active { color: #ffffff; text-decoration: underline; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+    .hero-pill { display: inline-block; background: var(--primary-light); color: var(--primary-dark); font-size: 0.9rem; font-weight: 600; padding: 0.3rem 0.8rem; border-radius: 9999px; margin-bottom: 1rem; }
+    .card { background: var(--card-bg); border-radius: 12px; padding: 1.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 2rem; }
+    .card h2 { color: var(--primary); margin-bottom: 0.75rem; font-size: 1.5rem; }
+    .card h3 { color: var(--text); margin: 1.2rem 0 0.5rem; font-size: 1.2rem; }
+    .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.25rem; margin: 1.5rem 0; }
+    .feature-box { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 1.25rem; }
+    .feature-box h4 { color: var(--primary-dark); margin-bottom: 0.4rem; font-size: 1.1rem; display: flex; align-items: center; gap: 0.5rem; }
+    #map { height: 420px; width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 1.5rem 0; border: 1px solid #e2e8f0; }
+    .btn { display: inline-block; color: white; background: var(--primary); text-decoration: none; padding: 0.65rem 1.25rem; border-radius: 6px; font-size: 0.95rem; font-weight: 600; transition: background 0.2s; }
+    .btn:hover { background: var(--primary-dark); }
+    .btn-red { background: #ea4335; }
+    .btn-red:hover { background: #c5221f; }
+    .faq-item { margin-bottom: 1.25rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 1rem; }
+    .faq-item h4 { color: var(--primary-dark); margin-bottom: 0.3rem; }
+    footer { text-align: center; padding: 2rem; color: #64748b; font-size: 0.9rem; border-top: 1px solid #e2e8f0; background: white; margin-top: 3rem; }
+    footer a { color: var(--primary); text-decoration: none; font-weight: 500; }
+  </style>
+
+  <!-- Schema.org TouristAttraction & LodgingBusiness JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TouristAttraction",
+        "@id": "https://jeeva-k-k.github.io/honnavar-coastal-guide/kandla-mangrove-boardwalk-stays.html#attraction",
+        "name": "Kandla Mangrove Boardwalk Honnavar",
+        "description": "Scenic wooden suspended walkway meandering through the dense tidal mangrove forests of the Sharavathi River estuary in Honnavar, Karnataka.",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 14.2792,
+          "longitude": 74.4518
+        },
+        "isAccessibleForFree": false,
+        "publicAccess": true
+      },
+      {
+        "@type": "LodgingBusiness",
+        "@id": "https://lopezparadise.in/#lodging",
+        "name": "Lopez Paradise Homestay Honnavar",
+        "url": "https://lopezparadise.in/",
+        "telephone": "+918792466846",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Pragati Nagar, Kelginuru, Kasarkoda",
+          "addressLocality": "Honnavar",
+          "addressRegion": "Karnataka",
+          "postalCode": "581342",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 14.244209,
+          "longitude": 74.446930
+        },
+        "numberOfRooms": 7,
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "196"
+        }
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What are the timings for Kandla Mangrove Boardwalk?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The Kandla Mangrove Boardwalk is open daily from 9:00 AM to 6:00 PM. The ideal visiting time is early morning (9:00 AM - 10:30 AM) for birdwatching or late afternoon (4:00 PM - 5:30 PM) for golden-hour photography."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where should I stay when visiting Kandla Mangrove Boardwalk?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lopez Paradise Homestay in Kasarkod is an ideal nearby basecamp, located just 2.1 km from the Sharavathi River Boating departure point and 3.4 km driving route (2.6 km bike trail) from the Mangrove Boardwalk. It offers 7 air-conditioned rooms, gated parking for 6+ cars, and tranquil village gardens."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <header>
+    <span class="hero-pill">Nature & Ecotourism Guide</span>
+    <h1>Places to Stay Near Kandla Mangrove Boardwalk</h1>
+    <p>Your complete visitor guide to exploring the Sharavathi mangrove forest, backwater boat tours, and relaxing at Lopez Paradise Homestay in Kasarkod.</p>
+  </header>
+
+  <nav class="portal-nav">
+    <a href="index.html">Overview</a>
+    <a href="best-homestay-in-honnavar.html">Best Homestay Guide</a>
+    <a href="family-homestay-honnavar.html">Family Stay & Parking</a>
+    <a href="kasarkod-eco-beach-homestay.html">Kasarkod Eco Beach</a>
+    <a href="couple-friendly-homestay-honnavar.html">Couples Retreat</a>
+    <a href="honnavar-boating-mangrove-guide.html">Boating & Mangroves</a>
+    <a href="kandla-mangrove-boardwalk-stays.html" class="active">Mangrove Boardwalk</a>
+    <a href="bangalore-to-honnavar-road-trip-guide.html">Road Trip Guide</a>
+    <a href="seven-experiences-honnavar.html">7 Experiences</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Exploring the Kandla Mangrove Boardwalk</h2>
+      <p>The <strong>Kandla Mangrove Boardwalk</strong> is one of Coastal Karnataka's most enchanting eco-tourism destinations. Built above the tidal waters of the Sharavathi estuary, this raised wooden pathway allows visitors to walk right through dense, untouched mangrove thickets without disturbing the delicate estuarine habitat.</p>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <h4>🕒 Operating Timings</h4>
+          <p>Open daily from <strong>9:00 AM to 6:00 PM</strong>. Entry tickets are issued at the gate by the Forest Department. Early mornings are best for calm water reflections and cool breezes.</p>
+        </div>
+        <div class="feature-box">
+          <h4>🦅 Avian Biodiversity</h4>
+          <p>A paradise for nature enthusiasts and photographers. Look out for Brahminy Kites, White-bellied Sea Eagles, Pied Kingfishers, and mudskippers in the exposed roots during low tide.</p>
+        </div>
+        <div class="feature-box">
+          <h4>🚤 Sharavathi Boating Connection</h4>
+          <p>Pair your boardwalk walk with a private boat ride along the Sharavathi backwaters, passing beneath the railway bridges and winding through river channels.</p>
+        </div>
+        <div class="feature-box">
+          <h4>🚗 Convenient Access</h4>
+          <p>Located right off the coastal highway, with direct access via car, two-wheeler, or cycle from Kasarkod across the Sharavathi bridge.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>The Ideal Nearby Basecamp: Lopez Paradise Homestay</h2>
+      <p>After a day exploring the mangrove canopy and river waterways, retreat to the peaceful green surroundings of <strong>Lopez Paradise Homestay</strong> in Kasarkod.</p>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <h4>📍 2.1 km to Boating Jetty</h4>
+          <p>Enjoy quick morning access to backwater boat departures without fighting town traffic or rushing schedules.</p>
+        </div>
+        <div class="feature-box">
+          <h4>❄️ 7 Air-Conditioned Rooms</h4>
+          <p>Spacious, clean bedrooms with cool split AC, attached modern western bathrooms, and 24/7 hot water.</p>
+        </div>
+        <div class="feature-box">
+          <h4>🚗 Gated Private Parking</h4>
+          <p>Keep your car safely parked inside our private gated compound with space for 6+ vehicles.</p>
+        </div>
+        <div class="feature-box">
+          <h4>☕ Fresh Coastal Breakfast</h4>
+          <p>Wake up to piping hot homemade idlis, dosas, and fresh South Indian coffee served in our peaceful dining veranda.</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 1.5rem;">
+        <a href="https://maps.google.com/maps?cid=4877075053733670463" target="_blank" rel="noopener noreferrer" class="btn btn-red">📍 View on Google Maps (4.9★)</a>
+        <a href="https://lopezparadise.in/" target="_blank" rel="noopener noreferrer" class="btn" style="margin-left: 0.75rem;">🌐 Official Booking Website</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2>Interactive Route & Location Map</h2>
+      <div id="map"></div>
+    </div>
+
+    <div class="card">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <h4>How far is Lopez Paradise from the Kandla Mangrove Boardwalk?</h4>
+        <p>Lopez Paradise is located 3.4 km by car (a scenic 6-minute drive across the Sharavathi bridge) and 2.6 km via the coastal cycling/walking trail.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Can the homestay help arrange boat rides?</h4>
+        <p>Yes. The host and on-site caretaker Mani can easily assist in coordinating departure times with local boat operators at the Kasarkod boating point (2.1 km away).</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 Lopez Paradise Homestay Portal • Pragati Nagar, Kelginuru, Kasarkoda, Honnavar, Karnataka 581342</p>
+    <p style="margin-top: 0.5rem;"><a href="https://lopezparadise.in/">lopezparadise.in</a> • Call/WhatsApp: <a href="tel:+918792466846">+91 87924 66846</a></p>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var map = L.map('map').setView([14.2618, 74.4493], 13);
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© OpenStreetMap contributors'
+      }).addTo(map);
+
+      var lpIcon = L.icon({
+        iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png',
+        shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+        iconSize: [25, 41],
+        iconAnchor: [12, 41],
+        popupAnchor: [1, -34],
+        shadowSize: [41, 41]
+      });
+
+      L.marker([14.244209, 74.446930], {icon: lpIcon}).addTo(map)
+        .bindPopup('<b>Lopez Paradise Homestay</b><br>Peaceful Basecamp in Kasarkod')
+        .openPopup();
+
+      L.marker([14.2792, 74.4518]).addTo(map)
+        .bindPopup('<b>Kandla Mangrove Boardwalk</b><br>3.4 km drive / 2.6 km bike trail');
+
+      L.marker([14.2541, 74.4420]).addTo(map)
+        .bindPopup('<b>Sharavathi River Boating Point</b><br>2.1 km from Lopez Paradise');
+
+      L.polyline([
+        [14.244209, 74.446930],
+        [14.2541, 74.4420],
+        [14.2792, 74.4518]
+      ], {color: '#0f766e', weight: 4, opacity: 0.7, dashArray: '8, 8'}).addTo(map);
+    });
+  </script>
+</body>
+</html>
