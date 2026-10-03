@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kasarkod Blue Flag Eco Beach Homestay Guide | Honnavar Coastal Stay</title>
+  <meta name="description" content="Ultimate guide to staying near Kasarkod Blue Flag Eco Beach in Honnavar. Verified 3.4 km distance, beach timings, casuarina groves, and quiet homestay lodging at Lopez Paradise.">
+  <link rel="canonical" href="https://jeeva-k-k.github.io/honnavar-coastal-guide/kasarkod-eco-beach-homestay.html">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <style>
+    :root {
+      --primary: #0284c7;
+      --primary-dark: #0369a1;
+      --primary-light: #e0f2fe;
+      --accent: #f59e0b;
+      --text: #1e293b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); }
+    header { background: linear-gradient(135deg, var(--primary-dark), var(--primary)); color: white; padding: 2.5rem 1.5rem; text-align: center; }
+    header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; font-weight: 700; }
+    header p { font-size: 1.1rem; opacity: 0.95; max-width: 800px; margin: 0 auto 1.2rem; }
+    nav.portal-nav { background: #075985; padding: 0.75rem 1rem; text-align: center; }
+    nav.portal-nav a { color: #e0f2fe; text-decoration: none; margin: 0 0.75rem; font-size: 0.95rem; font-weight: 500; }
+    nav.portal-nav a:hover, nav.portal-nav a.active { color: #ffffff; text-decoration: underline; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+    .hero-pill { display: inline-block; background: var(--primary-light); color: var(--primary-dark); font-size: 0.9rem; font-weight: 600; padding: 0.3rem 0.8rem; border-radius: 9999px; margin-bottom: 1rem; }
+    .card { background: var(--card-bg); border-radius: 12px; padding: 1.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 2rem; }
+    .card h2 { color: var(--primary); margin-bottom: 0.75rem; font-size: 1.5rem; }
+    .card h3 { color: var(--text); margin: 1.2rem 0 0.5rem; font-size: 1.2rem; }
+    .table-container { overflow-x: auto; margin: 1.5rem 0; }
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem; }
+    th, td { padding: 0.85rem 1rem; border-bottom: 1px solid #e2e8f0; }
+    th { background: #f1f5f9; color: #334155; font-weight: 600; }
+    tr:hover { background: #f8fafc; }
+    #map { height: 400px; width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 1.5rem 0; border: 1px solid #e2e8f0; }
+    .btn { display: inline-block; color: white; background: var(--primary); text-decoration: none; padding: 0.65rem 1.25rem; border-radius: 6px; font-size: 0.95rem; font-weight: 600; transition: background 0.2s; }
+    .btn:hover { background: var(--primary-dark); }
+    .btn-red { background: #ea4335; }
+    .btn-red:hover { background: #c5221f; }
+    footer { text-align: center; padding: 2rem; color: #64748b; font-size: 0.9rem; border-top: 1px solid #e2e8f0; background: white; margin-top: 3rem; }
+    footer a { color: var(--primary); text-decoration: none; font-weight: 500; }
+  </style>
+
+  <!-- Schema.org TouristAttraction & LodgingBusiness JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TouristAttraction",
+        "name": "Kasarkod Blue Flag Eco Beach",
+        "description": "Certified Blue Flag beach in Honnavar offering spotless white sand, casuarina trees, clean amenities, and tranquil sunset views.",
+        "url": "https://lopezparadise.in/honnavar-beach/",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 14.2719,
+          "longitude": 74.4361
+        }
+      },
+      {
+        "@type": "LodgingBusiness",
+        "name": "Lopez Paradise Homestay",
+        "url": "https://lopezparadise.in/",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Pragati Nagar, Kasarkod",
+          "addressLocality": "Honnavar",
+          "postalCode": "581342",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 14.244209,
+          "longitude": 74.446930
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <nav class="portal-nav">
+    <a href="index.html">← Portal Overview</a>
+    <a href="family-homestay-honnavar.html">Family & Parking Guide</a>
+    <a href="kasarkod-eco-beach-homestay.html" class="active">Kasarkod Eco Beach</a>
+    <a href="couple-friendly-homestay-honnavar.html">Couple Retreats</a>
+    <a href="honnavar-boating-mangrove-guide.html">Boating & Mangroves</a>
+  </nav>
+
+  <header>
+    <h1>Homestay Near Kasarkod Blue Flag Eco Beach</h1>
+    <p>Complete traveler guide for Kasarkod Eco Beach: verified 3.4 km distance, beach amenities, sunset hours, and peaceful basecamp lodging in Honnavar.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <span class="hero-pill">Blue Flag Beach Corridor • Official Logistics</span>
+      <h2>Experience Karnataka's Cleanest Certified Eco Beach</h2>
+      <p>Kasarkod Eco Beach is globally certified under the international Blue Flag program, awarded for its strict environmental criteria, pristine white sand dunes, solar-powered lighting, clean changing rooms, and disciplined safety standards. Located on the southern bank of the Sharavathi River estuary, it stands in stark contrast to crowded commercial shores.</p>
+
+      <h3>Verified Distance & Transit Route</h3>
+      <p>From <strong>Lopez Paradise Homestay</strong> in Pragati Nagar, Kasarkod Blue Flag Beach is exactly <strong>3.4 km</strong> away:</p>
+      <ul>
+        <li><strong>By Car / Bike:</strong> 6 to 8 minutes via the scenic Kasarkod coastal road.</li>
+        <li><strong>On Foot / Bicycle:</strong> 35-minute walking trail through serene village coconut groves.</li>
+        <li><strong>Beach Timings:</strong> 6:00 AM to 6:30 PM daily (Lifeguards stationed during daylight hours).</li>
+      </ul>
+
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+        <a href="https://lopezparadise.in/honnavar-beach/" class="btn" target="_blank" rel="noopener">Read Detailed Beach Guide on Official Site &rarr;</a>
+        <a href="https://maps.google.com/?cid=4877075053733670463" class="btn btn-red" target="_blank" rel="noopener">📍 Google Maps Route to Homestay &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Map Section -->
+    <div class="card">
+      <h2>Interactive Spatial Route: Lopez Paradise to Kasarkod Beach</h2>
+      <div id="map"></div>
+    </div>
+
+    <!-- Beach vs Town Lodging Comparison -->
+    <div class="card">
+      <h2>Why Stay in the Kasarkod Coastal Belt Rather than Downtown Honnavar?</h2>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Aspect</th>
+              <th>Kasarkod Coastal Base (Lopez Paradise)</th>
+              <th>Honnavar Downtown / Highway Hotels</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Beach Proximity</strong></td>
+              <td><strong>3.4 km</strong> (Quick 6-minute coastal drive)</td>
+              <td>7 – 9 km (Requires crossing the bridge & heavy traffic)</td>
+            </tr>
+            <tr>
+              <td><strong>Acoustic Environment</strong></td>
+              <td>Quiet village birdsong & coastal breezes</td>
+              <td>Continuous NH 66 truck traffic & commercial horns</td>
+            </tr>
+            <tr>
+              <td><strong>Sunset Experience</strong></td>
+              <td>Unobstructed Arabian Sea sunsets 5 mins away</td>
+              <td>Obscured by buildings and highway flyovers</td>
+            </tr>
+            <tr>
+              <td><strong>On-Site Parking</strong></td>
+              <td>Private, gated on-site parking for 6+ cars</td>
+              <td>Often shared street parking or congested curb slots</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Published on the open-access <a href="https://jeeva-k-k.github.io/honnavar-coastal-guide/">Honnavar Coastal Ecotourism Portal</a> • Powered by GitHub Pages (DA 96+).</p>
+    <p>Official Property Website: <a href="https://lopezparadise.in/">lopezparadise.in</a> • Pragati Nagar, Kasarkod, Honnavar 581342.</p>
+  </footer>
+
+  <script>
+    var map = L.map('map').setView([14.258, 74.441], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    var markers = [
+      {
+        name: "Lopez Paradise Homestay",
+        coords: [14.244209, 74.446930],
+        desc: "<b>Lopez Paradise Homestay</b><br>Pragati Nagar, Kasarkod 581342<br><a href='https://maps.google.com/?cid=4877075053733670463' target='_blank' style='color:#ea4335;'>Open Google Maps</a>"
+      },
+      {
+        name: "Kasarkod Blue Flag Eco Beach",
+        coords: [14.2719, 74.4361],
+        desc: "<b>Kasarkod Blue Flag Eco Beach</b><br>3.4 km from Lopez Paradise<br>Cleanest beach in Karnataka"
+      }
+    ];
+
+    markers.forEach(function(m, i) {
+      var marker = L.marker(m.coords).addTo(map);
+      marker.bindPopup(m.desc);
+      if (i === 1) marker.openPopup();
+    });
+  </script>
+</body>
+</html>

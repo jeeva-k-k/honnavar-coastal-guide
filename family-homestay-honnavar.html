@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Family Homestay in Honnavar with Car Parking | Lopez Paradise Guide</title>
+  <meta name="description" content="Verified family homestay guide for Honnavar: 7 AC rooms, dedicated family suites for up to 18 guests, secure gated parking for 6+ cars, and home-cooked breakfast near Kasarkod Eco Beach.">
+  <link rel="canonical" href="https://jeeva-k-k.github.io/honnavar-coastal-guide/family-homestay-honnavar.html">
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+  <style>
+    :root {
+      --primary: #0f766e;
+      --primary-dark: #115e59;
+      --primary-light: #ccfbf1;
+      --accent: #d97706;
+      --text: #1e293b;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: var(--text); background: var(--bg); }
+    header { background: linear-gradient(135deg, var(--primary-dark), var(--primary)); color: white; padding: 2.5rem 1.5rem; text-align: center; }
+    header h1 { font-size: 2.2rem; margin-bottom: 0.5rem; font-weight: 700; }
+    header p { font-size: 1.1rem; opacity: 0.95; max-width: 800px; margin: 0 auto 1.2rem; }
+    nav.portal-nav { background: #0b4f49; padding: 0.75rem 1rem; text-align: center; }
+    nav.portal-nav a { color: #ccfbf1; text-decoration: none; margin: 0 0.75rem; font-size: 0.95rem; font-weight: 500; }
+    nav.portal-nav a:hover, nav.portal-nav a.active { color: #ffffff; text-decoration: underline; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1rem; }
+    .hero-pill { display: inline-block; background: var(--primary-light); color: var(--primary-dark); font-size: 0.9rem; font-weight: 600; padding: 0.3rem 0.8rem; border-radius: 9999px; margin-bottom: 1rem; }
+    .card { background: var(--card-bg); border-radius: 12px; padding: 1.75rem; box-shadow: 0 2px 8px rgba(0,0,0,0.05); border: 1px solid #e2e8f0; margin-bottom: 2rem; }
+    .card h2 { color: var(--primary); margin-bottom: 0.75rem; font-size: 1.5rem; }
+    .card h3 { color: var(--text); margin: 1.2rem 0 0.5rem; font-size: 1.2rem; }
+    .table-container { overflow-x: auto; margin: 1.5rem 0; }
+    table { width: 100%; border-collapse: collapse; text-align: left; font-size: 0.95rem; }
+    th, td { padding: 0.85rem 1rem; border-bottom: 1px solid #e2e8f0; }
+    th { background: #f1f5f9; color: #334155; font-weight: 600; }
+    tr:hover { background: #f8fafc; }
+    .badge { display: inline-block; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; }
+    .badge-yes { background: #dcfce7; color: #166534; }
+    .badge-top { background: #fef3c7; color: #92400e; }
+    #map { height: 400px; width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); margin: 1.5rem 0; border: 1px solid #e2e8f0; }
+    .btn { display: inline-block; color: white; background: var(--primary); text-decoration: none; padding: 0.65rem 1.25rem; border-radius: 6px; font-size: 0.95rem; font-weight: 600; transition: background 0.2s; }
+    .btn:hover { background: var(--primary-dark); }
+    .btn-red { background: #ea4335; }
+    .btn-red:hover { background: #c5221f; }
+    footer { text-align: center; padding: 2rem; color: #64748b; font-size: 0.9rem; border-top: 1px solid #e2e8f0; background: white; margin-top: 3rem; }
+    footer a { color: var(--primary); text-decoration: none; font-weight: 500; }
+  </style>
+
+  <!-- Schema.org LodgingBusiness & FAQ JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LodgingBusiness",
+        "@id": "https://lopezparadise.in/#lodging",
+        "name": "Lopez Paradise Homestay",
+        "url": "https://lopezparadise.in/",
+        "telephone": "+918792466846",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Pragati Nagar, Kelginuru, Kasarkoda",
+          "addressLocality": "Honnavar",
+          "addressRegion": "Karnataka",
+          "postalCode": "581342",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 14.244209,
+          "longitude": 74.446930
+        },
+        "numberOfRooms": 7,
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "196"
+        },
+        "amenityFeature": [
+          {"@type": "LocationFeatureSpecification", "name": "Free On-Site Gated Parking (6+ Cars)", "value": true},
+          {"@type": "LocationFeatureSpecification", "name": "Family Suites (Up to 18 Guests)", "value": true},
+          {"@type": "LocationFeatureSpecification", "name": "Split Air Conditioning in All Rooms", "value": true},
+          {"@type": "LocationFeatureSpecification", "name": "Complimentary Home-Cooked Breakfast", "value": true},
+          {"@type": "LocationFeatureSpecification", "name": "Inverter Power Backup", "value": true}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the parking capacity at Lopez Paradise Homestay for families traveling by car?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lopez Paradise Homestay features private, enclosed on-site gated parking with dedicated space for 6 to 7 private cars or up to 3 minibuses/tempo travelers, offering safe off-street parking."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How many guests can stay together for a family trip in Honnavar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The property offers 7 spacious air-conditioned rooms, including 2 family suites and 5 deluxe couple rooms, comfortably accommodating extended family and tour groups of up to 18 guests."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <nav class="portal-nav">
+    <a href="index.html">← Portal Overview</a>
+    <a href="family-homestay-honnavar.html" class="active">Family & Parking Guide</a>
+    <a href="kasarkod-eco-beach-homestay.html">Kasarkod Eco Beach</a>
+    <a href="couple-friendly-homestay-honnavar.html">Couple Retreats</a>
+    <a href="honnavar-boating-mangrove-guide.html">Boating & Mangroves</a>
+  </nav>
+
+  <header>
+    <h1>Family Homestay in Honnavar with Secure Parking</h1>
+    <p>Complete field guide for families, kids, and road-trippers: spacious AC suites, secure on-site vehicle parking, and coastal home hospitality in Kasarkod.</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <span class="hero-pill">Verified Family Logistics • 2026 Reference</span>
+      <h2>Why Families Choose Kasarkod Over Town Center Stays</h2>
+      <p>When traveling along Coastal Karnataka with children, elderly parents, or large family groups, downtown town-center hotels frequently suffer from heavy NH 66 traffic noise, congested curb parking, and cramped commercial room layouts. Lopez Paradise Homestay in Pragati Nagar, Kasarkod provides a tranquil, gated residential campus surrounded by greenery, situated just 3.4 km from the Blue Flag Kasarkod Eco Beach and 2.1 km from the Sharavathi backwater boating jetty.</p>
+
+      <h3>At-a-Glance Family Amenities Matrix</h3>
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Feature / Amenity</th>
+              <th>Lopez Paradise Homestay</th>
+              <th>Standard Honnavar Town Lodging</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>On-Site Car Parking</strong></td>
+              <td><span class="badge badge-yes">Private Gated (6–7 Cars / Minibuses)</span></td>
+              <td>Street-side curb parking or limited slots</td>
+            </tr>
+            <tr>
+              <td><strong>Maximum Family Capacity</strong></td>
+              <td><span class="badge badge-top">Up to 18 Guests (Whole Property)</span></td>
+              <td>Scattered individual hotel rooms</td>
+            </tr>
+            <tr>
+              <td><strong>Room Configurations</strong></td>
+              <td>7 AC Rooms (2 Family Suites + 5 Couple Rooms)</td>
+              <td>Standard commercial double rooms</td>
+            </tr>
+            <tr>
+              <td><strong>Ensuite Washrooms</strong></td>
+              <td>Private attached in all 7 rooms (24/7 Hot Water)</td>
+              <td>Variable / shared in budget lodges</td>
+            </tr>
+            <tr>
+              <td><strong>Fresh Breakfast</strong></td>
+              <td><span class="badge badge-yes">Included Daily (8:00–9:30 AM Home-Cooked)</span></td>
+              <td>Extra charge / outsourced to restaurants</td>
+            </tr>
+            <tr>
+              <td><strong>Power Backup</strong></td>
+              <td>Full Inverter Power Backup</td>
+              <td>Subject to town power cuts</td>
+            </tr>
+            <tr>
+              <td><strong>Verified Google Rating</strong></td>
+              <td><strong>4.9 ★★★★★</strong> (196+ authentic guest reviews)</td>
+              <td>3.8 – 4.2 ★ average</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+        <a href="https://lopezparadise.in/honnavar-places-to-stay/" class="btn" target="_blank" rel="noopener">Explore Room Layouts on Official Site &rarr;</a>
+        <a href="https://maps.google.com/?cid=4877075053733670463" class="btn btn-red" target="_blank" rel="noopener">📍 View on Google Maps (Directions & Photos) &rarr;</a>
+      </div>
+    </div>
+
+    <!-- Map Section -->
+    <div class="card">
+      <h2>Interactive Spatial Map: Basecamp, Parking & Coastal Access</h2>
+      <p>Click pins below to inspect distances from Lopez Paradise Basecamp to the Blue Flag Beach, Mangrove Boardwalk, and Boating points.</p>
+      <div id="map"></div>
+    </div>
+
+    <!-- FAQ Section -->
+    <div class="card">
+      <h2>Frequently Asked Questions for Family Travelers</h2>
+      
+      <h3>Is advance booking required for whole-property family groups?</h3>
+      <p>Yes. For families requiring all 7 rooms to host 12 to 18 guests in complete privacy, advance confirmation is strongly recommended, especially over long weekends, Diwali, and the December winter holidays.</p>
+
+      <h3>What is the check-in and check-out schedule?</h3>
+      <p>Standard check-in is after 11:00 AM and check-out is by 10:00 AM. Early check-in or late luggage drop can be arranged with host Mani based on room availability.</p>
+
+      <h3>Can private tour buses and tempo travelers turn around inside?</h3>
+      <p>Yes. Pragati Nagar has wide access roads leading to the gated driveway of Lopez Paradise, allowing tempo travelers and 14-seater minibuses to safely enter, turn around, and park securely inside the property boundary.</p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Published on the open-access <a href="https://jeeva-k-k.github.io/honnavar-coastal-guide/">Honnavar Coastal Ecotourism Portal</a> • Powered by GitHub Pages (DA 96+).</p>
+    <p>Official Property Website: <a href="https://lopezparadise.in/">lopezparadise.in</a> • Pragati Nagar, Kasarkod, Honnavar 581342.</p>
+  </footer>
+
+  <script>
+    var map = L.map('map').setView([14.250, 74.445], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 18,
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    var pins = [
+      {
+        name: "Lopez Paradise Homestay (Basecamp & Parking)",
+        coords: [14.244209, 74.446930],
+        desc: "<b>Lopez Paradise Homestay</b><br>7 AC Rooms • Gated Parking for 6+ Cars<br><a href='https://maps.google.com/?cid=4877075053733670463' target='_blank' style='color:#ea4335;'>Open Google Maps</a>"
+      },
+      {
+        name: "Kasarkod Blue Flag Eco Beach",
+        coords: [14.2719, 74.4361],
+        desc: "<b>Kasarkod Blue Flag Beach</b><br>3.4 km from Basecamp • Clean sands & kids park"
+      },
+      {
+        name: "Sharavathi Boating Jetty",
+        coords: [14.2610, 74.4430],
+        desc: "<b>Sharavathi Boating Point</b><br>2.1 km from Basecamp • Family boat cruises"
+      }
+    ];
+
+    pins.forEach(function(p, idx) {
+      var m = L.marker(p.coords).addTo(map);
+      m.bindPopup(p.desc);
+      if (idx === 0) m.openPopup();
+    });
+  </script>
+</body>
+</html>
