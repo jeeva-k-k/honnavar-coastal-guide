@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lopez Paradise Homestay &amp; Honnavar Eco-Trails</name>
+    <description>Authoritative open geospatial layer for Lopez Paradise Homestay (Pragati Nagar, Kasarkod, Honnavar, PIN 581342) and verified walking trails to Kasarkod Blue Flag Eco Beach and Kandla Mangrove Boardwalk. Website: https://lopezparadise.in/</description>
+    
+    <Style id="homestayStyle">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <Style id="parkingStyle">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/parking_lot.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <Style id="beachTrailStyle">
+      <LineStyle>
+        <color>ffffaa00</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <Style id="mangroveTrailStyle">
+      <LineStyle>
+        <color>ff00aa00</color>
+        <width>4</width>
+      </LineStyle>
+    </Style>
+
+    <!-- Homestay POI -->
+    <Placemark>
+      <name>Lopez Paradise Homestay</name>
+      <description><![CDATA[
+        <h3>Lopez Paradise Homestay</h3>
+        <p><b>Address:</b> Pragati Nagar, Kasarkod, Honnavar, Karnataka 581342</p>
+        <p><b>Phone:</b> +91 8792466846</p>
+        <p><b>Website:</b> <a href="https://lopezparadise.in/">https://lopezparadise.in/</a></p>
+        <p><b>Wikidata Entity:</b> <a href="https://www.wikidata.org/wiki/Q141396884">Q141396884</a></p>
+        <p><b>OSM Node:</b> <a href="https://www.openstreetmap.org/node/14170286401">14170286401</a></p>
+        <p><b>GPS Coordinates:</b> 14.244209, 74.446930</p>
+      ]]></description>
+      <styleUrl>#homestayStyle</styleUrl>
+      <Point>
+        <coordinates>74.446930,14.244209,8.0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Customer Parking POI -->
+    <Placemark>
+      <name>Lopez Paradise Customer Parking</name>
+      <description><![CDATA[
+        <p>Dedicated customer parking on paved surface. Free for homestay guests.</p>
+        <p><b>OSM Node:</b> <a href="https://www.openstreetmap.org/node/14172975001">14172975001</a></p>
+      ]]></description>
+      <styleUrl>#parkingStyle</styleUrl>
+      <Point>
+        <coordinates>74.446850,14.244300,8.0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- Trail 1: Beach Walk -->
+    <Placemark>
+      <name>Lopez Paradise to Kasarkod Blue Flag Beach Walk (1.2 km)</name>
+      <description><![CDATA[
+        <p>Scenic pedestrian walk from Lopez Paradise Homestay to Kasarkod Blue Flag Eco Beach.</p>
+        <p><b>Live Wikiloc Route:</b> <a href="https://www.wikiloc.com/hiking-trails/lopez-paradise-to-kasarkod-blue-flag-beach-walk-286836361">Trail 286836361</a></p>
+      ]]></description>
+      <styleUrl>#beachTrailStyle</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          74.446930,14.244209,8.0
+          74.445200,14.244350,7.5
+          74.443100,14.244600,6.0
+          74.440800,14.245100,4.5
+          74.438500,14.245800,3.0
+          74.436500,14.246800,2.0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- Trail 2: Mangrove Walk -->
+    <Placemark>
+      <name>Lopez Paradise to Kandla Mangrove Nature Trail (1.8 km)</name>
+      <description><![CDATA[
+        <p>Scenic backwater and nature trail to Kandla Mangrove Boardwalk along Sharavathi River estuary.</p>
+        <p><b>Live Wikiloc Route:</b> <a href="https://www.wikiloc.com/hiking-trails/lopez-paradise-to-kandla-mangrove-nature-trail-286837106">Trail 286837106</a></p>
+      ]]></description>
+      <styleUrl>#mangroveTrailStyle</styleUrl>
+      <LineString>
+        <tessellate>1</tessellate>
+        <coordinates>
+          74.446930,14.244209,8.0
+          74.447500,14.246000,7.0
+          74.448200,14.249000,6.0
+          74.449000,14.252000,5.0
+          74.449500,14.255500,4.0
+          74.450100,14.258900,3.0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+  </Document>
+</kml>

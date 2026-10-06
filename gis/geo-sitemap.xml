@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
+  <!-- Master Geospatial Package -->
+  <url>
+    <loc>https://lopezparadise.in/geo-distribution/lopez-paradise-geospatial-package.geojson</loc>
+    <lastmod>2026-09-28T03:20:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <geo:geo>
+      <geo:format>geojson</geo:format>
+    </geo:geo>
+  </url>
+  <!-- KML Master Trail Suite -->
+  <url>
+    <loc>https://lopezparadise.in/geo-distribution/lopez-paradise-trails.kml</loc>
+    <lastmod>2026-09-28T03:20:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <geo:geo>
+      <geo:format>kml</geo:format>
+    </geo:geo>
+  </url>
+  <!-- Trail 01: Kasarkod Blue Flag Eco Beach Walk -->
+  <url>
+    <loc>https://lopezparadise.in/geo-distribution/trail-01-kasarkod-beach-walk.gpx</loc>
+    <lastmod>2026-09-28T03:20:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <geo:geo>
+      <geo:format>gpx</geo:format>
+    </geo:geo>
+  </url>
+  <!-- Trail 02: Kandla Mangrove Boardwalk Trail -->
+  <url>
+    <loc>https://lopezparadise.in/geo-distribution/trail-02-kandla-mangrove-trail.gpx</loc>
+    <lastmod>2026-09-28T03:20:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <geo:geo>
+      <geo:format>gpx</geo:format>
+    </geo:geo>
+  </url>
+  <!-- Trail 03: Apsarakonda Falls & Viewpoint Scenic Trail -->
+  <url>
+    <loc>https://lopezparadise.in/geo-distribution/trail-03-apsarakonda-waterfall-trail.gpx</loc>
+    <lastmod>2026-09-28T03:20:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <geo:geo>
+      <geo:format>gpx</geo:format>
+    </geo:geo>
+  </url>
+</urlset>

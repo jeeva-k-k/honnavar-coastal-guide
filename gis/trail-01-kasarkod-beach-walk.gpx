@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Lopez Paradise Autonomous Geospatial Engine - https://lopezparadise.in/"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Lopez Paradise to Kasarkod Blue Flag Beach Walk</name>
+    <desc>Paved scenic pedestrian walk connecting Lopez Paradise Homestay directly to the pristine Kasarkod Blue Flag Eco Beach.</desc>
+    <author>
+      <name>Shaina Lopis - Lopez Paradise Homestay</name>
+      <link href="https://lopezparadise.in/">
+        <text>Lopez Paradise Homestay Honnavar</text>
+      </link>
+    </author>
+    <time>2026-09-10T18:09:31Z</time>
+  </metadata>
+  <wpt lat="14.244209" lon="74.446930">
+    <ele>8.0</ele>
+    <name>Lopez Paradise Trailhead</name>
+    <desc>Lopez Paradise Homestay (Pragati Nagar, Kasarkod). Secure parking and accommodations.</desc>
+    <type>Lodging / Trailhead</type>
+  </wpt>
+  <wpt lat="14.246800" lon="74.436500">
+    <ele>2.0</ele>
+    <name>Kasarkod Blue Flag Beach</name>
+    <desc>Certified eco-beach promenade and sunset point.</desc>
+  </wpt>
+  <trk>
+    <name>Lopez Paradise to Kasarkod Blue Flag Beach Walk</name>
+    <desc>Paved scenic pedestrian walk connecting Lopez Paradise Homestay directly to the pristine Kasarkod Blue Flag Eco Beach.</desc>
+    <trkseg>
+      <trkpt lat="14.244209" lon="74.446930"><ele>8.0</ele></trkpt>
+      <trkpt lat="14.244350" lon="74.445200"><ele>7.5</ele></trkpt>
+      <trkpt lat="14.244600" lon="74.443100"><ele>6.0</ele></trkpt>
+      <trkpt lat="14.245100" lon="74.440800"><ele>4.5</ele></trkpt>
+      <trkpt lat="14.245800" lon="74.438500"><ele>3.0</ele></trkpt>
+      <trkpt lat="14.246800" lon="74.436500"><ele>2.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

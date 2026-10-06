@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Lopez Paradise Autonomous Geospatial Engine - https://lopezparadise.in/"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Lopez Paradise to Apsarakonda Falls &amp; Hilltop Viewpoint Trail</name>
+    <desc>Scenic coastal route connecting Lopez Paradise Homestay in Kasarkod to Apsarakonda Waterfalls, Pandava Caves, hill garden, and historical Camera Obscura.</desc>
+    <author>
+      <name>Shaina Lopis - Lopez Paradise Homestay</name>
+      <link href="https://lopezparadise.in/honnavar-places-to-stay/">
+        <text>Lopez Paradise Homestay Honnavar</text>
+      </link>
+    </author>
+    <time>2026-09-28T03:19:00Z</time>
+  </metadata>
+  <wpt lat="14.244209" lon="74.446930">
+    <ele>8.0</ele>
+    <name>Lopez Paradise Trailhead</name>
+    <desc>Lopez Paradise Homestay (Pragati Nagar, Kasarkod, Honnavar). Gated on-site parking and accommodations.</desc>
+    <type>Lodging / Trailhead</type>
+  </wpt>
+  <wpt lat="14.205800" lon="74.453300">
+    <ele>32.0</ele>
+    <name>Apsarakonda Falls &amp; Viewpoint</name>
+    <desc>Freshwater waterfall, ancient cave formations, clifftop sunset garden, and Camera Obscura.</desc>
+  </wpt>
+  <trk>
+    <name>Lopez Paradise to Apsarakonda Scenic Trail</name>
+    <desc>Scenic coastal drive and cycling route from Kasarkod to Apsarakonda viewpoint.</desc>
+    <trkseg>
+      <trkpt lat="14.244209" lon="74.446930"><ele>8.0</ele></trkpt>
+      <trkpt lat="14.238500" lon="74.448100"><ele>10.0</ele></trkpt>
+      <trkpt lat="14.231200" lon="74.449500"><ele>12.0</ele></trkpt>
+      <trkpt lat="14.223000" lon="74.451000"><ele>15.0</ele></trkpt>
+      <trkpt lat="14.214500" lon="74.452200"><ele>20.0</ele></trkpt>
+      <trkpt lat="14.205800" lon="74.453300"><ele>32.0</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

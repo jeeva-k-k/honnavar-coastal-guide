@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Lopez Paradise Autonomous Geospatial Engine - https://lopezparadise.in/"
+     xmlns="http://www.topografix.com/GPX/1/1"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>Lopez Paradise to Kandla Mangrove Nature Trail</name>
+    <desc>Scenic nature and backwater walking trail starting at Lopez Paradise through Kasarkod backwaters to the Kandla Mangrove Boardwalk.</desc>
+    <author>
+      <name>Shaina Lopis - Lopez Paradise Homestay</name>
+      <link href="https://lopezparadise.in/">
+        <text>Lopez Paradise Homestay Honnavar</text>
+      </link>
+    </author>
+    <time>2026-09-10T18:09:31Z</time>
+  </metadata>
+  <wpt lat="14.244209" lon="74.446930">
+    <ele>8.0</ele>
+    <name>Lopez Paradise Trailhead</name>
+    <desc>Lopez Paradise Homestay (Pragati Nagar, Kasarkod). Secure parking and accommodations.</desc>
+    <type>Lodging / Trailhead</type>
+  </wpt>
+  <wpt lat="14.258200" lon="74.449500">
+    <ele>3.5</ele>
+    <name>Kandla Mangrove Boardwalk</name>
+    <desc>Lush elevated boardwalk over mangrove sanctuary.</desc>
+  </wpt>
+  <trk>
+    <name>Lopez Paradise to Kandla Mangrove Nature Trail</name>
+    <desc>Scenic nature and backwater walking trail starting at Lopez Paradise through Kasarkod backwaters to the Kandla Mangrove Boardwalk.</desc>
+    <trkseg>
+      <trkpt lat="14.244209" lon="74.446930"><ele>8.0</ele></trkpt>
+      <trkpt lat="14.245500" lon="74.447300"><ele>7.0</ele></trkpt>
+      <trkpt lat="14.248200" lon="74.447900"><ele>6.0</ele></trkpt>
+      <trkpt lat="14.251500" lon="74.448200"><ele>5.0</ele></trkpt>
+      <trkpt lat="14.254800" lon="74.448800"><ele>4.0</ele></trkpt>
+      <trkpt lat="14.258200" lon="74.449500"><ele>3.5</ele></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

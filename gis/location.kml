@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Lopez Paradise Homestay — Location</name>
+    <description><![CDATA[
+      <p><b>Lopez Paradise Homestay</b></p>
+      <p>Pragati Nagar, Kelginuru, Kasarkoda, Honnavar, Karnataka 581342, India</p>
+      <p><b>Phone:</b> +91 8792466846</p>
+      <p><b>Website:</b> <a href="https://lopezparadise.in/">https://lopezparadise.in/</a></p>
+      <p><b>Nearby Destinations:</b></p>
+      <ul>
+        <li>Kasarkod Eco Beach: 3.4 km</li>
+        <li>Sharavathi Kandla Mangrove Boardwalk: 3.4 km by car / 2.6 km by bike</li>
+        <li>Sharavathi Backwater Boating: 2.1 km</li>
+        <li>Apsarakonda Beach &amp; Waterfalls: 1.7 km beach / 2.5 km falls</li>
+      </ul>
+      <p><b>Amenities:</b> Air-conditioned rooms, free Wi-Fi, on-site private parking, complimentary fresh home-cooked breakfast.</p>
+    ]]></description>
+
+    <Style id="homestayPin">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/lodging.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+
+    <Placemark id="lopez-paradise">
+      <name>Lopez Paradise Homestay</name>
+      <styleUrl>#homestayPin</styleUrl>
+      <Point>
+        <coordinates>74.446930,14.244209</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

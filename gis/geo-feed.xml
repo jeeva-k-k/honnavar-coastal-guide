@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+     xmlns:georss="http://www.georss.org/georss" 
+     xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Lopez Paradise Homestay — Location Feed</title>
+    <link>https://lopezparadise.in/</link>
+    <description>Location feed for Lopez Paradise Homestay in Pragati Nagar, Kelginuru, Kasarkoda, Honnavar, Karnataka 581342.</description>
+    <language>en-IN</language>
+    <dc:publisher>Lopez Paradise Homestay</dc:publisher>
+    <dc:date>2026-09-28T12:00:00Z</dc:date>
+
+    <item>
+      <title>Lopez Paradise Homestay</title>
+      <link>https://lopezparadise.in/</link>
+      <description>Homestay in Kasarkoda, Honnavar, with 7 air-conditioned rooms, on-site private parking, free Wi-Fi, and complimentary fresh home-cooked breakfast. Nearby: Kasarkod Eco Beach (3.4 km), Sharavathi Kandla Mangrove Boardwalk (3.4 km by car / 2.6 km by bike), Sharavathi Backwater Boating (2.1 km).</description>
+      <georss:point>14.244209 74.446930</georss:point>
+      <geo:lat>14.244209</geo:lat>
+      <geo:long>74.446930</geo:long>
+      <guid isPermaLink="true">https://lopezparadise.in/#homestay</guid>
+    </item>
+  </channel>
+</rss>

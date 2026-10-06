@@ -1,0 +1,210 @@
+{
+  "type": "FeatureCollection",
+  "name": "Lopez Paradise Homestay & Honnavar Eco-Trails Open GIS Package",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lopez-paradise-homestay-lodging",
+      "properties": {
+        "name": "Lopez Paradise Homestay",
+        "category": "Homestay / Guest House",
+        "tourism": "homestay",
+        "description": "Peaceful coastal homestay located in Pragati Nagar, Kasarkod, Honnavar. Features air-conditioned couple and family rooms, private garden, front-yard parking, and direct walking routes to Kasarkod Blue Flag Eco Beach.",
+        "address": {
+          "street": "Pragati Nagar",
+          "suburb": "Kasarkod",
+          "city": "Honnavar",
+          "district": "Uttara Kannada",
+          "state": "Karnataka",
+          "postcode": "581342",
+          "country": "India"
+        },
+        "contact": {
+          "phone": "+91 8792466846",
+          "email": "shaina@lopezparadise.in",
+          "website": "https://lopezparadise.in/"
+        },
+        "checkin": "12:00",
+        "checkout": "11:00",
+        "internet_access": "wlan",
+        "parking": "dedicated_free",
+        "linked_data": {
+          "wikidata": "https://www.wikidata.org/wiki/Q141396884",
+          "osm_node": "https://www.openstreetmap.org/node/14170286401",
+          "mappls_eloc": "https://www.mappls.com/q1it58",
+          "wikivoyage": "https://en.wikivoyage.org/wiki/Honavar#Sleep",
+          "wikiloc_host": "https://www.wikiloc.com/wikiloc/user.do?id=23032866"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.44693,
+          14.244209,
+          8.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lopez-paradise-customer-parking",
+      "properties": {
+        "name": "Lopez Paradise Dedicated Customer Parking",
+        "amenity": "parking",
+        "access": "customers",
+        "fee": "no",
+        "surface": "paving_stones",
+        "operator": "Lopez Paradise Homestay",
+        "linked_data": {
+          "osm_node": "https://www.openstreetmap.org/node/14172975001"
+        }
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.44685,
+          14.2443,
+          8.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kasarkod-blue-flag-beach-landmark",
+      "properties": {
+        "name": "Kasarkod Blue Flag Eco Beach",
+        "natural": "beach",
+        "description": "One of India's prestigious certified Blue Flag eco-beaches, featuring clean shorelines, safety patrols, eco-toilets, changing rooms, and pristine sunset vistas.",
+        "distance_from_homestay_km": 1.2
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.4365,
+          14.2468,
+          2.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "kandla-mangrove-boardwalk-landmark",
+      "properties": {
+        "name": "Kandla Mangrove Nature Trail Boardwalk",
+        "tourism": "attraction",
+        "description": "Suspended wooden boardwalk winding through dense coastal mangrove ecosystems along the Sharavathi River estuary.",
+        "distance_from_homestay_km": 1.8
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.4501,
+          14.2589,
+          3.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trail-kasarkod-beach-walk",
+      "properties": {
+        "name": "Lopez Paradise to Kasarkod Blue Flag Beach Walk",
+        "route": "hiking",
+        "distance_km": 1.2,
+        "difficulty": "Easy",
+        "trailhead": "Lopez Paradise Homestay",
+        "destination": "Kasarkod Blue Flag Beach",
+        "wikiloc_url": "https://www.wikiloc.com/hiking-trails/lopez-paradise-to-kasarkod-blue-flag-beach-walk-286836361"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.44693,
+            14.244209,
+            8.0
+          ],
+          [
+            74.4452,
+            14.24435,
+            7.5
+          ],
+          [
+            74.4431,
+            14.2446,
+            6.0
+          ],
+          [
+            74.4408,
+            14.2451,
+            4.5
+          ],
+          [
+            74.4385,
+            14.2458,
+            3.0
+          ],
+          [
+            74.4365,
+            14.2468,
+            2.0
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "trail-kandla-mangrove-boardwalk",
+      "properties": {
+        "name": "Lopez Paradise to Kandla Mangrove Nature Trail",
+        "route": "hiking",
+        "distance_km": 1.8,
+        "difficulty": "Easy",
+        "trailhead": "Lopez Paradise Homestay",
+        "destination": "Kandla Mangrove Boardwalk",
+        "wikiloc_url": "https://www.wikiloc.com/hiking-trails/lopez-paradise-to-kandla-mangrove-nature-trail-286837106"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            74.44693,
+            14.244209,
+            8.0
+          ],
+          [
+            74.4475,
+            14.246,
+            7.0
+          ],
+          [
+            74.4482,
+            14.249,
+            6.0
+          ],
+          [
+            74.449,
+            14.252,
+            5.0
+          ],
+          [
+            74.4495,
+            14.2555,
+            4.0
+          ],
+          [
+            74.4501,
+            14.2589,
+            3.0
+          ]
+        ]
+      }
+    }
+  ]
+}
