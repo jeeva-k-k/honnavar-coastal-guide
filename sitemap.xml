@@ -60,4 +60,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/gis/lopez-paradise-geospatial-package.geojson</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/gis/location.kml</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/gis/lopez-paradise-trails.kml</loc>
+    <lastmod>2026-10-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
 </urlset>
