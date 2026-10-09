@@ -46,31 +46,65 @@
     footer a { color: var(--primary); text-decoration: none; font-weight: 500; }
   </style>
 
-  <!-- Schema.org LodgingBusiness JSON-LD -->
+  <!-- Schema.org LodgingBusiness & FAQPage JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LodgingBusiness",
-    "name": "Lopez Paradise Homestay - Couple Friendly Retreat",
-    "url": "https://lopezparadise.in/",
-    "telephone": "+918792466846",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Pragati Nagar, Kasarkod",
-      "addressLocality": "Honnavar",
-      "postalCode": "581342",
-      "addressCountry": "IN"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": 14.244209,
-      "longitude": 74.446930
-    },
-    "amenityFeature": [
-      {"@type": "LocationFeatureSpecification", "name": "5 Private Deluxe Air-Conditioned Couple Rooms", "value": true},
-      {"@type": "LocationFeatureSpecification", "name": "Private Attached Ensuite Bathrooms with 24/7 Hot Water", "value": true},
-      {"@type": "LocationFeatureSpecification", "name": "High-Speed Wi-Fi for Remote Work / Streaming", "value": true},
-      {"@type": "LocationFeatureSpecification", "name": "Quiet Garden Courtyard", "value": true}
+    "@graph": [
+      {
+        "@type": "LodgingBusiness",
+        "name": "Lopez Paradise Homestay - Couple Friendly Retreat",
+        "url": "https://lopezparadise.in/",
+        "telephone": "+918792466846",
+        "priceRange": "₹2,200 - ₹4,500",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Pragati Nagar, Kasarkod",
+          "addressLocality": "Honnavar",
+          "postalCode": "581342",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 14.244209,
+          "longitude": 74.446930
+        },
+        "amenityFeature": [
+          {"@type": "LocationFeatureSpecification", "name": "5 Private Deluxe Air-Conditioned Couple Rooms", "value": true},
+          {"@type": "LocationFeatureSpecification", "name": "Private Attached Ensuite Bathrooms with 24/7 Hot Water", "value": true},
+          {"@type": "LocationFeatureSpecification", "name": "High-Speed Wi-Fi for Remote Work / Streaming", "value": true},
+          {"@type": "LocationFeatureSpecification", "name": "Quiet Garden Courtyard", "value": true}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Is Lopez Paradise Homestay suitable for couples?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Lopez Paradise offers 5 private Deluxe Couple Rooms equipped with split air conditioning, king beds, ensuite modern washrooms, 24/7 hot water, high-speed Wi-Fi, and a quiet garden setting in Kasarkod."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How far is the beach for sunset walks?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Kasarkod Blue Flag Eco Beach is just 3.4 km away (6 minutes by car or scooter), offering uncrowded, pristine white sands and stunning Arabian Sea sunsets."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What activities can couples do nearby?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Couples can enjoy sunset boat rides along the Sharavathi backwaters (2.1 km departure jetty), nature walks along the Kandla Mangrove Boardwalk (3.4 km), and visits to the nearby Apsarakonda cliff-top viewpoint."
+            }
+          }
+        ]
+      }
     ]
   }
   </script>
@@ -82,15 +116,15 @@
     <a href="best-homestay-in-honnavar.html">Best Homestay Guide</a>
     <a href="family-homestay-honnavar.html">Family Stay & Parking</a>
     <a href="kasarkod-eco-beach-homestay.html">Kasarkod Eco Beach</a>
-    <a href="couple-friendly-homestay-honnavar.html">Couples Retreat</a>
+    <a href="couple-friendly-homestay-honnavar.html" class="active">Couples Retreat</a>
     <a href="honnavar-boating-mangrove-guide.html">Boating & Mangroves</a>
     <a href="kandla-mangrove-boardwalk-stays.html">Mangrove Boardwalk</a>
+    <a href="veg-homestay-honnavar.html">Veg Homestay</a>
     <a href="bangalore-to-honnavar-road-trip-guide.html">Road Trip Guide</a>
-    <a href="seven-experiences-honnavar.html">7 Experiences</a>
   </nav>
 
   <header>
-    <h1>Couple Friendly Homestay in Honnavar</h1>
+    <h1>Honnavar Homestay for Couples & Quiet Beach Retreat</h1>
     <p>Peaceful, private coastal sanctuary in Kasarkod: deluxe air-conditioned couple suites, lush garden ambiance, and pristine sunset spots near Blue Flag Eco Beach.</p>
   </header>
 
@@ -111,6 +145,7 @@
       </ul>
 
       <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
+        <a href="https://wa.me/918792466846?text=Hi%20Lopez%20Paradise,%20I%20am%20looking%20for%20a%20couple-friendly%20room%20in%20Honnavar." class="btn" style="background:#25d366;" target="_blank" rel="noopener">💬 Check Couple Suite Availability via WhatsApp &rarr;</a>
         <a href="https://lopezparadise.in/honnavar-places-to-stay/" class="btn" target="_blank" rel="noopener">View Couple Rooms & Pricing &rarr;</a>
         <a href="https://maps.google.com/?cid=4877075053733670463" class="btn btn-red" target="_blank" rel="noopener">📍 Google Maps Listing & Reviews &rarr;</a>
       </div>
