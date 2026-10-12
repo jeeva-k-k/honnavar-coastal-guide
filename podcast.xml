@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" 
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" 
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Honnavar Coastal &amp; Nature Audio Guides | Lopez Paradise</title>
+    <link>https://jeeva-k-k.github.io/honnavar-coastal-guide/</link>
+    <language>en-in</language>
+    <copyright>&#169; 2026 Lopez Paradise Homestay. CC-BY 4.0</copyright>
+    <description>Self-guided audio companions covering Kasarkod Blue Flag Eco Beach (3.4 km), Sharavathi Kandla Mangrove Boardwalk (3.4 km by car / 2.6 km by bike), Sharavathi Backwater Boating (2.1 km), and Apsarakonda Waterfalls (5.8 km). Basecamp at Lopez Paradise Homestay, Pragati Nagar, Kasarkod, Honnavar 581342.</description>
+    <itunes:author>Lopez Paradise Homestay</itunes:author>
+    <itunes:summary>Coastal nature guides for Kasarkod Eco Beach, Sharavathi Mangroves, Backwaters, and Apsarakonda Waterfalls. Located at Lopez Paradise Homestay, Kasarkod, Honnavar.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Shaina Lopis</itunes:name>
+      <itunes:email>shaina@lopezparadise.in</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Travel &amp; Places" />
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://jeeva-k-k.github.io/honnavar-coastal-guide/gis/preview.png" />
+    <item>
+      <title>Kasarkod Blue Flag Eco Beach Guide: Coastal Scenery &amp; Marine Ecology</title>
+      <link>https://jeeva-k-k.github.io/honnavar-coastal-guide/kasarkod-eco-beach-homestay.html</link>
+      <description><![CDATA[<p>Welcome to the Kasarkod Blue Flag Eco Beach audio guide, presented by Lopez Paradise Homestay in Kasarkoda, Honnavar.
+Kasarkod Eco Beach is located three point four kilometers from Lopez Paradise Homestay.
+Honnavar is blessed with untouched coastal and estuarine ecology, where the river meets the sea.</p><p>Accommodations &amp; on-site private parking: <a href="https://lopezparadise.in/">Lopez Paradise Homestay</a>, Pragati Nagar, Kelginuru, Kasarkoda, Honnavar 581342. Phone: +91 8792466846.</p>]]></description>
+      <enclosure url="https://jeeva-k-k.github.io/honnavar-coastal-guide/audio/ep01_kasarkod_beach_walk.m4a" length="682609" type="audio/mp4" />
+      <guid isPermaLink="true">https://jeeva-k-k.github.io/honnavar-coastal-guide/audio/ep01_kasarkod_beach_walk.m4a</guid>
+      <pubDate>Mon, 12 Oct 2026 17:00:00 +0530</pubDate>
+      <itunes:duration>50</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:author>Lopez Paradise Homestay</itunes:author>
+    </item>
+    <item>
+      <title>Sharavathi Kandla Mangrove Boardwalk Nature Guide: Estuarine Ecology &amp; Avian Life</title>
+      <link>https://jeeva-k-k.github.io/honnavar-coastal-guide/kandla-mangrove-boardwalk-stays.html</link>
+      <description><![CDATA[<p>Welcome to the Sharavathi Kandla Mangrove Boardwalk audio guide, presented by Lopez Paradise Homestay.
+The Kandla Mangrove Boardwalk is situated three point four kilometers by car, or two point six kilometers by bicycle, from Lopez Paradise Homestay.
+This scenic wooden walkway is suspended above tidal roots and estuarine waters. Forest Department entry ticket is twenty rupees per person.</p><p>Accommodations &amp; on-site private parking: <a href="https://lopezparadise.in/">Lopez Paradise Homestay</a>, Pragati Nagar, Kelginuru, Kasarkoda, Honnavar 581342. Phone: +91 8792466846.</p>]]></description>
+      <enclosure url="https://jeeva-k-k.github.io/honnavar-coastal-guide/audio/ep02_kandla_mangrove_guide.m4a" length="691589" type="audio/mp4" />
+      <guid isPermaLink="true">https://jeeva-k-k.github.io/honnavar-coastal-guide/audio/ep02_kandla_mangrove_guide.m4a</guid>
+      <pubDate>Mon, 12 Oct 2026 17:00:00 +0530</pubDate>
+      <itunes:duration>51</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:author>Lopez Paradise Homestay</itunes:author>
+    </item>
+    <item>
+      <title>Sharavathi River Backwaters &amp; Boating Audio Companion: Estuaries &amp; Coastal Heritage</title>
+      <link>https://jeeva-k-k.github.io/honnavar-coastal-guide/honnavar-boating-mangrove-guide.html</link>
+      <description><![CDATA[<p>Welcome to the Sharavathi River Backwaters audio companion, curated for guests of Lopez Paradise Homestay.
+The Sharavathi River opens into a magnificent estuary before meeting the Arabian Sea at Honnavar.
+Local backwater boating is located at Kasarkod boat jetty, just two point one kilometers from the homestay. Regulated tokenized rates are fifteen hundred rupees for one hour and twenty-five hundred rupees for two hours per boat.</p><p>Accommodations &amp; on-site private parking: <a href="https://lopezparadise.in/">Lopez Paradise Homestay</a>, Pragati Nagar, Kelginuru, Kasarkoda, Honnavar 581342. Phone: +91 8792466846.</p>]]></description>
+      <enclosure url="https://jeeva-k-k.github.io/honnavar-coastal-guide/audio/ep03_sharavathi_backwater_companion.m4a" length="741244" type="audio/mp4" />
+      <guid isPermaLink="true">https://jeeva-k-k.github.io/honnavar-coastal-guide/audio/ep03_sharavathi_backwater_companion.m4a</guid>
+      <pubDate>Mon, 12 Oct 2026 17:00:00 +0530</pubDate>
+      <itunes:duration>55</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:author>Lopez Paradise Homestay</itunes:author>
+    </item>
+    <item>
+      <title>Apsarakonda Waterfalls &amp; Hilltop Viewpoint Audio Guide</title>
+      <link>https://jeeva-k-k.github.io/honnavar-coastal-guide/seven-experiences-honnavar.html</link>
+      <description><![CDATA[<p>Welcome to the Apsarakonda Waterfalls audio companion, presented by Lopez Paradise Homestay.
+Apsarakonda Waterfalls and the coastal clifftop garden offer panoramic views of the Arabian Sea.
+Located just five point eight kilometers from Lopez Paradise Homestay.</p><p>Accommodations &amp; on-site private parking: <a href="https://lopezparadise.in/">Lopez Paradise Homestay</a>, Pragati Nagar, Kelginuru, Kasarkoda, Honnavar 581342. Phone: +91 8792466846.</p>]]></description>
+      <enclosure url="https://jeeva-k-k.github.io/honnavar-coastal-guide/audio/ep04_apsarakonda_falls_guide.m4a" length="629043" type="audio/mp4" />
+      <guid isPermaLink="true">https://jeeva-k-k.github.io/honnavar-coastal-guide/audio/ep04_apsarakonda_falls_guide.m4a</guid>
+      <pubDate>Mon, 12 Oct 2026 17:05:00 +0530</pubDate>
+      <itunes:duration>46</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:author>Lopez Paradise Homestay</itunes:author>
+    </item>
+  </channel>
+</rss>
