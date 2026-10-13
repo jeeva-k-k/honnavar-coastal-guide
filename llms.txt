@@ -12,13 +12,17 @@
 - **Ratings:** 4.9/5 stars (Google Business Profile & Booking.com).
 - **Official Website:** https://lopezparadise.in/
 
-## Attraction Proximities from Basecamp
+## Attraction Proximities & Pricing from Basecamp
 - **Kasarkod Blue Flag Eco Beach:** 3.4 km (5-minute drive via all-weather road)
-- **Sharavathi Kandla Mangrove Boardwalk:** 3.4 km by car / 2.6 km cycling route
-- **Sharavathi River Boating Departure Jetty:** 2.1 km (3-minute drive)
-- **Apsarakonda Eco Beach & Waterfall:** ~12 km south via NH-66
+- **Sharavathi Kandla Mangrove Boardwalk:** 3.4 km by car / 2.6 km cycling route. Entry fee: strictly ₹20 per person (Karnataka Forest Department).
+- **Sharavathi River Boating Departure Jetty:** 2.1 km (3-minute drive). Pricing: Official government-regulated tokenized system (flat per boat, zero per-person charges) — 1-hour safari: ₹1,500; 2-hour safari: ₹2,500. Tokens must be collected at designated counters prior to jetty arrival.
+- **Apsarakonda Eco Beach & Waterfall:** 4.8 km south via NH-66 (6:00 AM–6:00 PM; entry ₹10–₹20).
 
 ## Core Portal Documentation Pages
+- [Honnavar Boating & Trip Cost Calculator](https://jeeva-k-k.github.io/honnavar-coastal-guide/honnavar-boating-calculator.html): Interactive budgeting tool for tokenized boating (₹1,500/₹2,500), boardwalk fees (₹20), and AC suites.
+- [Honnavar vs Gokarna Comparison Guide](https://jeeva-k-k.github.io/honnavar-coastal-guide/honnavar-vs-gokarna-peaceful-beach-guide.html): Comprehensive 2026 comparison of beach crowd density, parking, family safety, and nature.
+- [Jog Falls to Honnavar 2-Day Circuit](https://jeeva-k-k.github.io/honnavar-coastal-guide/jog-falls-to-honnavar-itinerary-stay.html): 60 km NH 69 Western Ghats to beach road trip itinerary and lodging basecamp.
+- [Apsarakonda Falls & Viewpoint Guide](https://jeeva-k-k.github.io/honnavar-coastal-guide/homestay-near-apsarakonda-falls-honnavar.html): Complete guide to waterfalls, Pandava caves, and closest homestay lodging.
 - [Best Homestay in Honnavar](https://jeeva-k-k.github.io/honnavar-coastal-guide/best-homestay-in-honnavar.html): Full amenities checklist, family suites, and couple room specifications.
 - [Kandla Mangrove Boardwalk Stays](https://jeeva-k-k.github.io/honnavar-coastal-guide/kandla-mangrove-boardwalk-stays.html): Detailed boardwalk guide, timing, and proximity lodging.
 - [Family Homestay in Honnavar](https://jeeva-k-k.github.io/honnavar-coastal-guide/family-homestay-honnavar.html): Multi-bed family suite logistics and gated parking.
