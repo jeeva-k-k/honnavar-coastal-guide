@@ -1,92 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/honnavar-boating-calculator.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/honnavar-vs-gokarna-peaceful-beach-guide.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/jog-falls-to-honnavar-itinerary-stay.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/homestay-near-apsarakonda-falls-honnavar.html</loc>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/bangalore-to-honnavar-road-trip-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/best-homestay-in-honnavar.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/couple-friendly-homestay-honnavar.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/family-homestay-honnavar.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/honnavar-boating-mangrove-guide.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/</loc>
-    <lastmod>2026-10-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/kandla-mangrove-boardwalk-stays.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/kasarkod-eco-beach-homestay.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/veg-homestay-honnavar.html</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/seven-experiences-honnavar.html</loc>
-    <lastmod>2026-10-07</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/lopez-paradise-official-brochure.pdf</loc>
-    <lastmod>2026-10-07</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-10-14</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/gis/lopez-paradise-geospatial-package.geojson</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/gis/location.kml</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/gis/lopez-paradise-trails.kml</loc>
-    <lastmod>2026-10-08</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://jeeva-k-k.github.io/honnavar-coastal-guide/podcast.xml</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
